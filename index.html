@@ -31,6 +31,15 @@ body {
       font-family: 'Bungee', cursive;
 
     }
+
+    p {
+      color: orangered
+    }
+
+
+    .inputTopic {
+      display:inline-block;
+    }
   </style>
 
   
@@ -47,14 +56,14 @@ body {
     <form id="show-form">
       <label for="show-input">Add a TV Show</label>
       <input type="text" id="show-input">
-      <br>
 
       <!-- Button triggers new TV Show to be added -->
       <input id="add-show" type="submit" value="SUBMIT">
     </form>
 
     <!-- Gifs will get Dumped Here  -->
-    <div id="shows"></div>
+     <span id="gif-display">
+       <div id="shows"></div></span>
   </div>
 
 
